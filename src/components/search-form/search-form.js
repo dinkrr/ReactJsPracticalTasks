@@ -1,3 +1,5 @@
+// SearchForm.js
+
 import styles from './search-form.module.css';
 import React from 'react';
 
@@ -15,7 +17,9 @@ class SearchForm extends React.Component {
 
   handleSubmit(e) {
     e.preventDefault();
-    console.log('Search click:', this.state.searchQuery);
+    if (this.props.onSubmit) {
+      this.props.onSubmit(this.state.searchQuery);
+    }
   }
 
   render() {

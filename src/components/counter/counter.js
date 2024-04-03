@@ -15,10 +15,10 @@ const Counter = () => {
   };
 
   return (
-    <div className="counter">
-      <button onClick={decrement}>-</button>
-      <span>{count}</span>
-      <button onClick={increment}>+</button>
+    <div id='count' className="counter">
+      <button id='btn-decr' onClick={decrement}>-</button>
+      <span id='counter-value'>{count}</span>
+      <button id='btn-incr' onClick={increment}>+</button>
     </div>
   );
 };
