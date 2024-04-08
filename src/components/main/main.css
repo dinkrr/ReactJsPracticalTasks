@@ -3,3 +3,24 @@ main {
   background: rgba(35, 35, 35, 1);
   color: #fff;
 }
+
+.sort-control {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.sort-control label {
+  margin-right: 10px;
+}
+
+.sort-control select {
+  padding: 5px;
+  font-size: 16px;
+}
+.filter-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
