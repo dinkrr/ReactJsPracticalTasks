@@ -1,0 +1,28 @@
+.movie-details {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-poster img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .movie-info {
+    margin-left: 20px;
+  }
+  
+  .movie-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .movie-info p {
+    margin: 5px 0;
+  }
+  
